@@ -1,4 +1,17 @@
 ---
 label: small banner
 hide_body: false
-fields: []
+fields:
+- name: slices
+  type: field_group_list
+  fields:
+  - name: slice
+    type: include
+    config: {}
+    template: banner
+    label: slice
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: slices
