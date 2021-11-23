@@ -1,4 +1,9 @@
 ---
 label: page
 hide_body: false
-fields: []
+fields:
+- name: select
+  type: include
+  config: {}
+  template: small-banner
+  label: select
